@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// калькулятор для консоли
 public class Calculator {
     public static void main(String[] args) {
         /*
