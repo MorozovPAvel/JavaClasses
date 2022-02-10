@@ -13,8 +13,6 @@ public class Calculator {
         //вызов калькулятора
         Calcul cal1 = new Calcul();
         cal1.result(scan_a.nextInt(), scan_b.nextLine(), scan_c.nextInt());
-
-
     }
 }
 class Calcul{
