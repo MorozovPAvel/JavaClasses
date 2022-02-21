@@ -33,7 +33,11 @@ class Calcul{
                 break;
             case "*" : System.out.println("= " + (a*b));
                 break;
-            case "/" : System.out.println("= " + (a/b));
+            case "/" : try {
+                System.out.println("= " + (a / b));
+            }catch (ArithmeticException e){
+                System.out.println("На ноль делить нельзя!!!");
+            }
                 break;
         }
     }
