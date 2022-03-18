@@ -21,7 +21,6 @@ public class CharacterWar {
 
     public static void main(String[] args) {
         War war = new War();
-        int[] arr = {100, 90};
         System.out.println(war.start("wpbafdfsdfsdfafd"));
 
     }
