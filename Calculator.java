@@ -11,6 +11,7 @@ public class Calculator {
         Scanner scan_c = new Scanner(System.in);
 
         //вызов калькулятора
+        System.out.println("Введите по очереди значения для расчета: первое число, оператор, второе число:");
         Calcul cal1 = new Calcul();
         cal1.result(scan_a.nextInt(), scan_b.nextLine(), scan_c.nextInt());
     }
@@ -34,10 +35,10 @@ class Calcul{
             case "*" : System.out.println("= " + (a*b));
                 break;
             case "/" : try {
-                System.out.println("= " + (a / b));
-            }catch (ArithmeticException e){
-                System.out.println("На ноль делить нельзя!!!");
-            }
+                        System.out.println("= " + (a / b));
+                    }catch (ArithmeticException e){
+                        System.out.println("На ноль делить нельзя!!!");
+                    }
                 break;
         }
     }
