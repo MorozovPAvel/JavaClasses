@@ -1,11 +1,12 @@
 import java.util.Scanner;
-// калькулятор для консоли
+/**
+ * Простейший калькулятор для консоли
+ * при запуске просит вводить данные
+ * первое число -> математическое действие -> второе число
+ * на выходе в консоли получаем результат
+ */
 public class Calculator {
     public static void main(String[] args) {
-        /*
-        Вводим параметры:
-        первое число -> математическое действие -> второе число
-         */
         Scanner scan_a = new Scanner(System.in);
         Scanner scan_b = new Scanner(System.in);
         Scanner scan_c = new Scanner(System.in);
